@@ -1,0 +1,7 @@
+name: Shops
+author: Kevin Velz
+main: me.velz.shops.Shops
+version: 1.0
+commands:
+    shop:
+        description: Shop Befehl

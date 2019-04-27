@@ -1,0 +1,11 @@
+me\velz\shops\commands\ShopCommand.class
+me\velz\shops\utils\FileBuilder.class
+me\velz\shops\listener\InventoryClickListener.class
+me\velz\shops\utils\FileManager.class
+me\velz\shops\utils\ItemBuilder.class
+me\velz\shops\objects\Shop.class
+me\velz\shops\objects\ShopItems.class
+me\velz\shops\Shops.class
+me\velz\shops\utils\MessageUtil.class
+me\velz\shops\version\VersionMatcher.class
+me\velz\shops\listener\PlayerInteractListener.class
