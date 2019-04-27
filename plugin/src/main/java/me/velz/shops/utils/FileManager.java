@@ -20,7 +20,7 @@ public class FileManager {
     @Getter
     private final FileBuilder config = new FileBuilder("plugins/Shops/", "config.yml");
 
-    public void setDefaults() {        
+    public void setDefaults() {
         if(!config.getConfiguration().contains("shops")) {
             config.addDefault("shops.default.displayname", "Default");
             config.addDefault("shops.default.title", "Default Shop");

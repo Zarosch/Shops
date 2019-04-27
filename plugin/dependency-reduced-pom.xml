@@ -43,15 +43,9 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot</artifactId>
-      <version>1_8_R3</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>me.velz</groupId>
       <artifactId>Facility</artifactId>
-      <version>0.50-SNAPSHOT</version>
+      <version>1.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -59,6 +53,13 @@
       <artifactId>lombok</artifactId>
       <version>1.16.16</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot</artifactId>
+      <version>1_8_R3</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/spigot-1.8.8.jar</systemPath>
     </dependency>
   </dependencies>
 </project>
