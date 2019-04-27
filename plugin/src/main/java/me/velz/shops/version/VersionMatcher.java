@@ -22,7 +22,7 @@ public class VersionMatcher {
         try {
             return versions.stream()
                     .filter(version -> version.getSimpleName().substring(8).equals(serverVersion))
-                    .findFirst().orElseThrow(() -> new RuntimeException("[Quests] Your server version isn't supported! (" + serverVersion +")"))
+                    .findFirst().orElseThrow(() -> new RuntimeException("[Shops] Your server version isn't supported! (" + serverVersion +")"))
                     .newInstance();
         } catch (IllegalAccessException | InstantiationException ex) {
             throw new RuntimeException(ex); 
